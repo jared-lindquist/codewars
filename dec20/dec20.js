@@ -78,3 +78,31 @@ console.log( bmi(230,6)); //underweight
 console.log( bmi(275,3.5)); //normal
 console.log( bmi(230,2.25)); // obese
 console.log( bmi(260,3)); //overweight
+//--------------------------
+//7.
+function maps(x){
+    let newArr = [];
+    for(let i = 0; i < x.length; i++){
+        newArr.push(x[i] * 2);
+    }
+    return newArr;
+}
+
+console.log(maps([2,1,45]));
+console.log(maps([54,6,234]));
+console.log(maps([1,3,6]));
+console.log(maps([98,34,65]));
+//------------------------
+//8.
+function doubleChar(str) {
+    var newString = "";
+    for( i = 0; i < str.length; i++) {
+    newString += str[i] + str[i];
+    }
+    return newString;
+}
+
+console.log(doubleChar('jared'));
+console.log(doubleChar('keri'));
+console.log(doubleChar('reggie'));
+console.log(doubleChar('mabel'));

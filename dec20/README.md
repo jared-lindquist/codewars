@@ -39,3 +39,17 @@ if bmi <= 25.0 return "Normal"
 if bmi <= 30.0 return "Overweight"
 
 if bmi > 30 return "Obese"
+-------------------------------
+7. Given an array of integers, return a new array with each value doubled.
+
+For example:
+
+[1, 2, 3] --> [2, 4, 6]
+------------------------------
+8. Given a string, you have to return a string in which each character (case-sensitive) is repeated once.
+
+Examples (Input -> Output):
+* "String"      -> "SSttrriinngg"
+* "Hello World" -> "HHeelllloo  WWoorrlldd"
+* "1234!_ "     -> "11223344!!__  "
+Good Luck!
