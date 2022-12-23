@@ -53,3 +53,5 @@ Examples (Input -> Output):
 * "Hello World" -> "HHeelllloo  WWoorrlldd"
 * "1234!_ "     -> "11223344!!__  "
 Good Luck!
+----------------------------
+9. Write a function to split a string and convert it into an array of words.
