@@ -129,3 +129,13 @@ console.log(lovefunc(2, 5));
 console.log(lovefunc(4, 24));
 console.log(lovefunc(567, 23));
 console.log(lovefunc(488, 35));
+//----------------
+//11.
+function digitize(n) {
+  //code here
+return String(n).split("").reverse().map(Number);
+}
+
+console.log(digitize(78634));
+console.log(digitize(098237));
+console.log(digitize(759246));
