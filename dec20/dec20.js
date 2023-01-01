@@ -171,3 +171,22 @@ function getDivisorsCnt(n){
 console.log(getDivisorsCnt(745));
 console.log(getDivisorsCnt(36));
 console.log(getDivisorsCnt(9684));
+
+//------------------
+//14. 
+function removeEveryOther(arr){
+    //your code here
+    let result = [];
+    for (let i = 0; i < arr.length; i+=2) {
+    result.push(arr[i]);
+    }
+    return result;
+}
+
+//------------------
+//15.
+function invert(array) {
+    return array.map(num =>   {
+     return num * -1
+    })
+}

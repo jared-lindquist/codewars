@@ -69,3 +69,7 @@ Considering these factors, write a function that tells you if it is possible to 
 Function should return true if it is possible and false if not.
 ------------------------
 13. Count the number of divisors of a positive integer n.
+------------------------
+14. Take an array and remove every second element from the array. Always keep the first element and start removing with the next element.
+------------------------
+15. Given a set of numbers, return the additive inverse of each. Each positive becomes negatives, and the negatives become positives.
